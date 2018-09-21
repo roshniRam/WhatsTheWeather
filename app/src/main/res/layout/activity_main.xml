@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.whatstheweather.MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/city_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter city name"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/find_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's The Weather"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="New text"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
